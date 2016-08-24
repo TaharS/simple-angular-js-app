@@ -1,0 +1,31 @@
+<html ng-app="ticketSystemApp">
+
+<head>
+    <title>Ticketing system</title>
+
+    <!-- Custom css -->
+    <!-- build:css app.css -->
+    <link rel="stylesheet" type="text/css" href="./styles/app.css">
+    <!-- endbuild -->
+
+    <!-- AngularJS framework -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-resource/1.5.8/angular-resource.min.js"></script>
+</head>
+
+<body ui-view>
+
+    <!-- build:js app.js -->
+    <script src="./app.js"></script>
+    <script src="./services/moq.js"></script>
+    <script src="./services/templates.js"></script>
+    <script src="./models/authentication.js"></script>
+    <script src="./models/dashboard.js"></script>
+
+    <script src="./controllers/main.js"></script>
+    <script src="./controllers/dashboard.js"></script>
+    <!-- endbuild -->
+</body>
+
+</html>

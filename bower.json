@@ -1,0 +1,17 @@
+{
+  "name": "simple-app",
+  "description": "Simple app using AngularJS",
+  "main": "app.js",
+  "authors": [
+    "Slaim Mohand Tahar"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
